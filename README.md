@@ -2,7 +2,7 @@
 
 experiment with node scraping
 
-**demo: http://buitwith-api.herokuapp.com/**
+**demo: http://builtwith-api.herokuapp.com/**
 
 todo: details of each tech; websites using tech
 
