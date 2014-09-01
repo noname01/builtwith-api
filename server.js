@@ -10,7 +10,7 @@ app.get("/", function(req, res){
 });
 
 app.get("/site/:site", function(req, res){
-  res.json(siteAnalyzer.getJson(req.params.site));
+  siteAnalyzer.getJson(req.params.site, res);
 });
 
 var server = app.listen(3000, function(){
