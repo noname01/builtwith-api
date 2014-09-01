@@ -1,0 +1,11 @@
+{
+  "name": "builtwith-api",
+  "description": "Simple unofficial api for builtwith.com",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "cheerio": "^0.17.0",
+    "express": "3.x",
+    "request": "^2.40.0"
+  }
+}
