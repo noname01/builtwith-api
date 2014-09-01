@@ -4,7 +4,6 @@ var siteAnalyzer = require("./siteAnalyzer.js");
 
 var app = express();
 
-
 app.get("/", function(req, res){
   res.send("Welcome! Try /site/{site} or /tech/{tech name}.");
 });
